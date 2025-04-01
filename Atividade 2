@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Página Inicial -->
+    <header id="inicio">
+        <h1>Augusto Rodrigues</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Meus Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+        <p>Sou Augusto de Araujo Rodrigues, um entusiasta da área de Desenvolvimento de Sistemas.</p>
+        <blockquote>
+            "A filosofia que sigo é sempre buscar aprender mais e ajudar os outros ao longo do caminho."
+        </blockquote>
+    </section>
+
+    <section id="projetos">
+        <h1>Meus Projetos</h1>
+        <ul>
+            <li>
+                <h2>Projeto 1: Sistema de Gerenciamento de Tarefas</h2>
+                <p>Desenvolvimento de uma aplicação web para gerenciamento de tarefas, permitindo aos usuários criar, editar e organizar suas atividades diárias.</p>
+                <a href="#">Saiba mais</a>
+            </li>
+            <li>
+                <h2>Projeto 2: Aplicativo de Clima</h2>
+                <p>Criação de um aplicativo móvel que fornece informações meteorológicas em tempo real, utilizando APIs para exibir dados atualizados sobre o clima local.</p>
+                <a href="#">Saiba mais</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <p>Se você deseja entrar em contato, preencha o formulário abaixo ou me encontre nas redes sociais.</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/augusto-rodrigues-2991ba266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/__gu7o?igsh=YXhrNGw3YW43eHM4&utm_source=qr">Instagram</a></li>
+        </ul>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Augusto Rodrigues</p>
+    </footer>
+</body>
+</html>
